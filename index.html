@@ -1,0 +1,602 @@
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Homeless in Seattle</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+
+
+<body class="is-preload">
+	<section id="header">
+		<header>
+			<h1>Homeless in Seattle</h1>
+			<p class="fixes">A Public Project</p>
+		</header>
+		<footer>
+			<a href="#banner" onClick= city.play();city1.play(); class="button style2 scrolly-middle">Proceed</a>
+		</footer>
+	</section>
+
+	<!-- Banner  HOW TO LOAD / APPEND SVG (2nd visual) -->
+	<section id="banner">
+		<article>
+			<header>
+				<div class="space-fix-top"></div>
+				<h2>1 in 30 People Are Homeless in the Seattle Area</h2>
+			</header>
+			<svg id="pplVis" width=1050 height=265></svg>
+			<footer>
+				<a href="#second" class="button style2 scrolly-3">Learn More</a>
+				<div class="space-fix-bottom"></div>
+			</footer>
+		</article>
+	</section>
+
+	<section id="second" class="box-body">
+		<header>
+			<div class="space-fix-top"></div>
+			<h2 class="style-intro-1">Most people know how big of a social issue homelessness is,</br> but don't understand what it's like to be homeless...
+			</h2>
+		</header>
+		<footer>
+			<center>
+				<a href="#second-2" onclick= city2.play() class="button style1 scrolly-45">Listen to Sabrina's Story</a>
+			</center>
+			<div class="space-fix-bottom"></div>
+			<div class="space-fix-bottom"></div>
+		</footer>
+	</section>
+	<!-- 1/30 -->
+
+
+	<section id="second-2" class=" box-body first-vis">
+		<header>
+			<h1 class="space-fix-top-1">Hover over Sabrina to hear her story</h1>
+			<!-- <h2>1 in 30 People Are Homeless in the Seattle Area...</h2> -->
+			<!-- <p class="padding-p">Homeless people are a diverese varied group in terms of their backgrounds.</p> -->
+		</header>
+		<img onmouseover=audioh3.play(); class="img-big" src="images/man-white.png">
+		<!-- <p id="headline">Select Person To View Their Story</p> -->
+		<footer>
+			<a href="#second-12" onclick= city3.play();audioh3.pause(); class="button style2 scrolly-2">More Stories</a>
+		</footer>
+	</section>
+
+
+	<!-- In depth look at people-->
+	<section id="second-12" class="banner-2nd">
+		<article>
+			<header>
+				<h2>Hover Over to Hear Their Stories</h2>
+			</header>
+			<svg id="pplVis2" width=1350 height=450></svg>
+			<footer>
+				<a href="#fourth-4" class="button style2 scrolly-55" onclick="enableScroll();document.body.style.overflow = 'visible';city.pause()">Homelessness in Seattle</a>
+			</footer>
+		</article>
+	</section>
+
+
+	<section id="fourth-4" class="banner-2nd">
+		<article>
+			<header>
+				<iframe width="1200" height="700" frameborder="0" class="padded-frame" style="border:0" src="/total.html"></iframe>
+			</header>
+			<footer>
+				<a href="#third-31" class="button style2 scrolly-555">Resources in Seattle</a>
+			</footer>
+		</article>
+	</section>
+
+	<section id="third-31" class="box-body first-vis">
+		<header>
+			<h1 id="vis">Tent Cities & Resources in Seattle</h1>
+			<iframe width="1200" height="550" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyCpDY2_16tkbiyAzzJEloJ3e1uGxdcmU4M&q=homeless+in+Seattle"
+			 allowfullscreen>
+			</iframe>
+			<!-- <video width="1200" height="550" controls>
+				<source src="images/video-1540140031.mp4" type="video/mp4">
+				Your browser does not support the video tag.
+			</video> -->
+			<!-- <img src="images\gif.gif" class="images-maps" alt="Picture of a happy monkey" /> -->
+		</header>
+
+		<footer>
+			<a href="#fourth" class="button style2 scrolly-25">Next</a>
+		</footer>
+
+
+	</section>
+
+	<!-- Feature 2 -->
+	<article id="fourth" class="container box style1 left">
+		<a href="#" class="image fit">
+			<img src="images/seattle.jpg" alt="" />
+		</a>
+		<div class="inner">
+			<header>
+				<h2>About This Project
+					<br /> </h2>
+			</header>
+			<p>This project was made in order to help inform the general public about the severity of displaced homeless individuals
+				in the Seattle Area and provide a platform for change in the community.
+			</p>
+		</div>
+	</article>
+	<!-- Feature 1 -->
+	<article class="container box style1 right">
+		<a href="#" class="image fit">
+			<img src="images/panda.PNG" alt="" />
+		</a>
+		<div class="inner">
+			<header>
+				<h2>Profiles
+					<br/> Panda</h2>
+			</header>
+			<p>Given his disabilities, Panda is unable to work. As a single dad, he raised two children. After they grew up and moved
+				out, he no longer qualified for Section 8 Housing Choice Voucher and ended up on the streets. Panda wanted to be involved
+				in something good that helps people who suffer from chronic homelessness. He has since moved into Seattle’s Tent City
+				5.
+			</p>
+		</div>
+	</article>
+
+
+	<!-- <article class="container box style3">
+		<header>
+			<h2>Profiles</h2>
+		</header>
+		<section>
+			<header>
+				<h3>Josh Panda</h3>
+				<img src="./images/panda.PNG">
+			</header>
+			<p>Description</p>
+		</section>
+		</section>
+	</article>
+
+ -->
+
+	<!-- Payment -->
+	<article class="container box style3">
+		<header>
+			<h2>Donate Today!</h2>
+			<p>All proceeds go to underserved homeless populations in the Seattle area and is tax-deductable.</p>
+		</header>
+		<div class="row gtr-50">
+			<div class="col-12">
+				<ul class="actions">
+					<li>
+						<input class="donate" type="submit" value="Donate" />
+					</li>
+				</ul>
+			</div>
+		</div>
+		</form>
+	</article>
+
+	<!-- Contact -->
+	<article class="container box style3">
+		<header>
+			<h2>Contact Homeless In Seattle Inc.</h2>
+			<p>Questions, Comments, Concerns, & Suggestions</p>
+		</header>
+		<form method="post" action="#">
+			<div class="row gtr-50">
+				<div class="col-6 col-12-mobile">
+					<input type="text" class="text" name="name" placeholder="Name" />
+				</div>
+				<div class="col-6 col-12-mobile">
+					<input type="text" class="text" name="email" placeholder="Email" />
+				</div>
+				<div class="col-12">
+					<textarea name="message" placeholder="Message"></textarea>
+				</div>
+				<div class="col-12">
+					<ul class="actions">
+						<li>
+							<input type="submit" value="Send Message" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</article>
+	<!-- People -->
+	<article class="container box style2">
+		<header>
+			<h2>People</h2>
+			<p>Read More About Us
+				<br />
+			</p>
+		</header>
+		<div class="inner gallery">
+			<div class="row gtr-0">
+				<div class="col-4 col-12-mobile">
+					<a href="images/james-full.jpg" class="image fit">
+						<img src="images/james.jpg" alt="" title="James is a graduate student at UW." />
+					</a>
+				</div>
+				<div class="col-4 col-12-mobile">
+					<a href="images/dubhacks-full.jpg_large" class="image fit">
+						<img src="images/dubhacks-1.jpg" alt="" title="This project was made at DubHacks 2018!" />
+					</a>
+				</div>
+				<div class="col-4 col-12-mobile">
+					<a href="images/claire-full.jpg" class="image fit">
+						<img src="images/claire.jpg" alt="" title="Claire Leu is a full time Computer Science at UW!" />
+					</a>
+				</div>
+				<div class="col-4 col-12-mobile">
+					<a href="images/gideon-full.jpg" class="image fit">
+						<img src="images/gideon.jpg" alt="" title="Gideon Chia is Claire's RA :)" />
+					</a>
+				</div>
+				<div class="col-4 col-12-mobile">
+					<a href="images/sohaib-full.jpg" class="image fit">
+						<img src="images/sohaib-1.jpg" alt="" title="Sohaib Moinuddin is a full time Computer Science Student at UW!" />
+					</a>
+				</div>
+				<div class="col-4 col-12-mobile">
+					<a href="images/linh-full.jpg" class="image fit">
+						<img src="images/linh.jpg" alt="" title="Linh Vuu is an incoming IBM IoT Consultant who recently graduated from Cornell University."
+						/>
+					</a>
+				</div>
+
+			</div>
+		</div>
+		</div>
+	</article>
+
+	<section id="footer">
+		<ul class="icons">
+			<li>
+				<a href="#" class="icon fa-twitter">
+					<span class="label">Twitter</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="icon fa-facebook">
+					<span class="label">Facebook</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="icon fa-google-plus">
+					<span class="label">Google+</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="icon fa-pinterest">
+					<span class="label">Pinterest</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="icon fa-dribbble">
+					<span class="label">Dribbble</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="icon fa-linkedin">
+					<span class="label">LinkedIn</span>
+				</a>
+			</li>
+		</ul>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; DubHacks 2018. All rights reserved.</li>
+				<li>
+					<a href="https://clarisaleu.github.io/dubhacks2018">Homeless in Seattle Inc.</a>
+				</li>
+			</ul>
+		</div>
+
+	</section>
+
+	<!-- Scripts -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.1.0/d3-annotation.js"></script>
+	<script type="text/javascript" src="https://jstest.authorize.net/v1/Accept.js" charset="utf-8">
+	</script>
+	<script>
+		// left: 37, up: 38, right: 39, down: 40,
+		// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
+		var keys = { 37: 1, 38: 1, 39: 1, 40: 1 };
+
+		function preventDefault(e) {
+			e = e || window.event;
+			if (e.preventDefault)
+				e.preventDefault();
+			e.returnValue = false;
+		}
+
+		function preventDefaultForScrollKeys(e) {
+			if (keys[e.keyCode]) {
+				preventDefault(e);
+				return false;
+			}
+		}
+
+		function disableScroll() {
+			if (window.addEventListener) // older FF
+				window.addEventListener('DOMMouseScroll', preventDefault, false);
+			window.onwheel = preventDefault; // modern standard
+			window.onmousewheel = document.onmousewheel = preventDefault; // older browsers, IE
+			window.ontouchmove = preventDefault; // mobile
+			document.onkeydown = preventDefaultForScrollKeys;
+		}
+
+		function enableScroll() {
+			if (window.removeEventListener)
+				window.removeEventListener('DOMMouseScroll', preventDefault, false);
+			window.onmousewheel = document.onmousewheel = null;
+			window.onwheel = null;
+			window.ontouchmove = null;
+			document.onkeydown = null;
+		}
+
+		// disable scrolling - james
+		document.onload = disableScroll();
+		// force scroll to top - james
+		window.onbeforeunload = function () { window.scrollTo(0, 0); }
+		$(document).ready(function () {
+			$(this).scrollTop(0);
+		});
+		// hide scrollbar
+		document.body.style.overflow = 'hidden';
+
+		// Example
+		var intro = d3.select("#intro");
+		var randomBox = intro.append("circle")
+			.attr("cx", 30)
+			.attr("cy", 30)
+			.attr("r", 20);
+
+		var width = 1050;
+		var height = 265;
+
+		// Code to load one person
+		var pplVis = d3.select("#pplVis");
+		for (var i = 0; i < 3; i++) {
+			for (var j = 0; j < 10; j++) {
+				if (i == 2 && j == 9) {
+					console.log(i);
+					pplVis.append("image")
+						.attr("href", "./images/man-white.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 10))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "Jake");
+				} else {
+					var peoplePic = pplVis.append("image")
+						.attr("href", "./images/man.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 10))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "bob");
+				}
+			}
+		}
+
+		var width2 = 1150;
+		var height2 = 450;
+
+		// Code to load one person
+		var pplVis2 = d3.select("#pplVis2");
+		for (var i = 0; i < 5; i++) {
+			for (var j = 0; j < 50; j++) {
+				if (i == 2 && j == 3) {
+					pplVis2.append("image")
+						.attr("href", "./images/man-gray.png")//"./man-yellow.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 30))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "Kerry");
+				} else if (i == 3 && j == 25) {
+					pplVis2.append("image")
+						.attr("href", "./images/man-gray.png")//"./man-red.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 30))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "Panda");
+				} else if (i == 1 && j == 30) {
+					pplVis2.append("image")
+						.attr("href", "./images/man-gray.png")//"./man-blue.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 30))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "Jennifer");
+				} else if (i == 4 && j == 12) {
+					pplVis2.append("image")
+						.attr("href", "./images/man-gray.png")//"./man-purple.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 30))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "Theresa");
+				} else if (i == 0 && j == 22) {
+					pplVis2.append("image")
+						.attr("href", "./images/man-gray.png")//"./man-purple.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 30))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "Sabrina");
+				} else {
+					var peoplePic = pplVis2.append("image")
+						.attr("href", "./images/man-white.png")
+						.attr("width", 70)
+						.attr("x", j * (width / 30))//textSvg.attr("width") / 2 + 470)
+						.attr("y", i * (height / 3))
+						.attr("id", "bob");
+				}
+			}
+
+		}
+
+		pplVis2.selectAll("image")
+			.on("mouseover", function () {
+				if ("Kerry" == this.id) {
+					audioh1.play();
+				} else if ("Panda" == this.id) {
+					audioh2.play();
+				} else if ("Sabrina" == this.id) {
+					audioh3.play();
+				} else if ("Theresa" == this.id) {
+					audioh4.play();
+				} else if ("Jennifer" == this.id) {
+					audioh5.play();
+				} else {
+					audio.play();
+				}
+			})
+			.on("mouseout", function () {
+				audioh1.pause();
+				audioh1.currentTime = 0;
+				audioh2.pause();
+				audioh2.currentTime = 0;
+				audioh3.pause();
+				audioh3.currentTime = 0;
+				audioh4.pause();
+				audioh4.currentTime = 0;
+				audioh5.pause();
+				audioh5.currentTime = 0;
+				audio.pause();
+				audio.currentTime = 0;
+			});
+
+		var audio = new Audio('audios/John Cena Sound Cli.mp3');
+		//var audioSrc = new Audio('audios/Jennifer.mp3');
+		var city = new Audio('audios/City-Sounds.mp3');
+		var city1 = new Audio('audios/Clip-1.mp3');
+		var city2 = new Audio('audios/Clip-2.mp3');
+		var city3 = new Audio('audios/Clip-3.mp3');
+		var city4 = new Audio('audios/Clip-4.mp3');
+		city.volume = 0.3;
+
+		// function getSoundAndFadeAudio (audio) {
+
+		// 	var sound = document.getElementById(audio);
+
+		// 	// Set the point in playback that fadeout begins. This is for a 2 second fade out.
+		// 	var fadePoint = sound.duration - 2;
+
+		// 	var fadeAudio = setInterval(function () {
+
+		// 		// Only fade if past the fade out point or not at zero already
+		// 		if ((sound.currentTime >= fadePoint) && (sound.volume != 0.0)) {
+		// 			sound.volume -= 0.1;
+		// 		}
+		// 		// When volume at zero stop all the intervalling
+		// 		if (sound.volume === 0.0) {
+		// 			clearInterval(fadeAudio);
+		// 		}
+		// 	}, 200);
+		// }
+
+		pplVis.selectAll("image")
+			.on("mouseover", function () {
+				d3.select("#headline").text(this.id);
+				if ("Jake" != this.id) {
+					audio.play();
+				} else {
+					audio.volume = 0.7;
+				}
+			});
+
+		var audioh1 = new Audio('audios/Kerry.mp3');
+		var audioh2 = new Audio('audios/Panda.mp3');
+		var audioh3 = new Audio('audios/Sabrina.mp3');
+		var audioh4 = new Audio('audios/Theresa.mp3');
+		var audioh5 = new Audio('audios/Jennifer.mp3');
+		// window.scrollTo(500, 0);
+
+		pplVis.selectAll("image")
+			.on("mouseover", function () {
+				d3.select("#headline").text(this.id);
+				if ("Jake" != this.id) {
+					audio.play();
+					//getSoundAndFadeAudio('CENA');
+					//fade();
+				} else {
+					audioh5.play();
+				}
+			}
+			)
+			.on("mouseout", function () {
+				d3.select("#headline").text("Select Person For Story");
+				audio.pause();
+				audio.currentTime = 0;
+				audioh5.pause();
+				audioh5.currentTime = 0;
+			});
+
+		//d3.on("mouseover", handleMouseOver(this.d, 1 + (i * 10) + j));
+		// Map : Fix Later
+
+		// var svg = d3.select("$#vis").append("svg")
+
+		// var projection = d3.geoMercator();
+
+		// var path = d3.geoPath().projection(projection);
+
+		// var url = "./data/map-1.json";
+
+		// d3.json(url, function (err, geojson) {
+		// 	svg.append("path").attr("d", path(geojson));
+		// })
+
+
+		// D3 Map
+
+		// var width = 960,
+		// 	height = 500;
+
+		// var projection = d3.geo.mercator()
+		// 	.center([0, 5])
+		// 	.scale(900)
+		// 	.rotate([-180, 0]);
+
+		// var svg = d3.select("#vis").append("svg")
+		// 	.attr("width", width)
+		// 	.attr("height", height);
+
+		// var path = d3.geo.path()
+		// 	.projection(projection);
+
+		// var g = svg.append("g");
+
+		// // load and display the World
+		// d3.json("/data/map-1.json", function (error, topology) {
+		// 	g.selectAll("path")
+		// 		.data(topojson.object(topology, topology.objects.countries)
+		// 			.geometries)
+		// 		.enter()
+		// 		.append("path")
+		// 		.attr("d", path)
+		// });
+	</script>
+</body>
+
+</html>

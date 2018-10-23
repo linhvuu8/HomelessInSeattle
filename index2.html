@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<svg width="1000" height="1000"></svg>
+<script>
+    var svg = d3.select("#pplVis").append("svg")
+    
+    var projection = d3.geoMercator();
+
+    var path = d3.geoPath().projection(projection);
+  
+    var url = "seattle-viz.geojson";
+
+    d3.json(url, function(err, geojson) {
+    	  svg.append("path").attr("d", path(geojson));
+    	})
+</script>
+</body>
+
+<section id="banner">
+    <header>
+        <h2>Homelessness in Seattle</h2>
+    </header>
+    <svg id="pplVis" width=850 height=300></svg>
+    <footer>
+        <a href="#first" class="button style2 scrolly">Learn More</a>
+    </footer>
+</section>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.1.0/d3-annotation.js"></script>
+	
+</html>
