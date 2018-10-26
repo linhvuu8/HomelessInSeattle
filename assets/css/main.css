@@ -132,6 +132,18 @@ q:after {
   content: none;
 }
 
+#img-link, #img-link img {
+   text-decoration: none !important;
+   border:0px !important;
+   outline:none;
+   border-width: 0px;
+   outline-width:0px;
+   border-bottom: none;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
